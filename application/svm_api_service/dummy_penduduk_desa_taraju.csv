@@ -1,0 +1,1001 @@
+Jenis Kelamin,Pendidikan,Pekerjaan,Status Perkawinan,Tanggungan Anak,Lantai Rumah,Dinding Rumah,Daya Listrik,Sumber Air,Kelas
+Perempuan,SLTP,Tidak Bekerja,Kawin,3,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Dagang,Kawin,2,Kayu/bambu,Semi-tembok,450,Sumur,1
+Perempuan,SD,Tidak Bekerja,Kawin,3,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SD,Tani,Janda,2,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Tembok,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Dagang,Kawin,4,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,2,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Tembok,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,4,Tembok,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Buruh,Kawin,2,Keramik,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTA,Pegawai/Karyawan,Duda,2,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Tembok,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,4,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Dagang,Janda,2,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Laki-laki,SD,Dagang,Duda,0,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,0,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Tani,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Janda,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Dagang,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,0,Keramik,Kayu/bambu,450,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,1,Tembok,Kayu/bambu,450,Sumur,1
+Perempuan,SD,Buruh,Duda,1,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,4,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Semi-tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Perempuan,Perguruan Tinggi,Buruh,Janda,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTP,Tani,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Buruh,Janda,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SD,Tani,Janda,1,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Tani,Kawin,2,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SLTP,Tani,Kawin,0,Keramik,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Buruh,Kawin,2,Keramik,Tembok,450,Sumur,1
+Perempuan,SLTP,Dagang,Kawin,5,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Tembok,Tembok,900,Mata air/sungai,1
+Laki-laki,SD,Buruh,Kawin,1,Tembok,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,3,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,0,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SLTA,Buruh,Janda,0,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Kawin,0,Tembok,Semi-tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Dagang,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,3,Tembok,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Dagang,Janda,1,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Tani,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,1,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Janda,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,5,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Janda,0,Tembok,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,4,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,5,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SD,Pegawai/Karyawan,Janda,3,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,0,Kayu/bambu,Semi-tembok,450,Sumur,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Kayu/bambu,900,Mata air/sungai,-1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,2,Tembok,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SLTA,Tani,Kawin,0,Kayu/bambu,Tembok,450,Sumur,-1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,2,Kayu/bambu,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTP,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SLTP,Dagang,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Janda,2,Tembok,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Tani,Kawin,3,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,4,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Janda,2,Keramik,Tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Keramik,Tembok,450,Mata air/sungai,1
+Laki-laki,SD,Pegawai/Karyawan,Janda,2,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Janda,4,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Dagang,Kawin,0,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,3,Keramik,Semi-tembok,900,Sumur,1
+Laki-laki,SD,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Tani,Kawin,0,Keramik,Tembok,450,Sumur,1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Janda,0,Keramik,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SD,Buruh,Kawin,0,Keramik,Semi-tembok,900,Sumur,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,5,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Kawin,1,Kayu/bambu,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Dagang,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,2,Keramik,Kayu/bambu,900,Sumur,1
+Perempuan,SLTA,Tani,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Duda,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Dagang,Janda,3,Kayu/bambu,Tembok,450,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,2,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SD,Dagang,Duda,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Buruh,Janda,2,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,1,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SD,Dagang,Janda,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,450,Sumur,1
+Perempuan,SD,Buruh,Kawin,2,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Duda,3,Tembok,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SLTA,Dagang,Kawin,0,Tembok,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,2,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTP,Tani,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Tembok,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Janda,1,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SD,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Tidak Bekerja,Kawin,5,Tembok,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Janda,0,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,450,Sumur,-1
+Laki-laki,SLTA,Dagang,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Buruh,Kawin,4,Keramik,Semi-tembok,900,Sumur,1
+Laki-laki,Perguruan Tinggi,Tani,Janda,3,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,0,Kayu/bambu,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,3,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,1,Keramik,Semi-tembok,900,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Duda,2,Tembok,Tembok,900,Sumur,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,2,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SD,Pegawai/Karyawan,Kawin,0,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,3,Kayu/bambu,Semi-tembok,450,Sumur,1
+Perempuan,SLTA,Buruh,Kawin,3,Keramik,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Tani,Kawin,1,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,2,Keramik,Semi-tembok,450,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Janda,0,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,1,Kayu/bambu,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTA,Buruh,Janda,1,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,4,Keramik,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Kawin,0,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SLTP,Tani,Janda,2,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,3,Tembok,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTA,Tani,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Keramik,Tembok,450,Sumur,1
+Laki-laki,SD,Buruh,Janda,1,Tembok,Semi-tembok,900,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,5,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Janda,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,2,Keramik,Tembok,450,Sumur,1
+Perempuan,SLTA,Dagang,Janda,5,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Janda,0,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,Sumur,1
+Laki-laki,SLTP,Buruh,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Buruh,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,4,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Dagang,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,1,Keramik,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTP,Tani,Janda,5,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,Sumur,1
+Perempuan,Perguruan Tinggi,Tani,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTA,Dagang,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,0,Tembok,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Tani,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Dagang,Kawin,3,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tani,Kawin,1,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Perempuan,SLTA,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,0,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,4,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,5,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SD,Buruh,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Duda,0,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Buruh,Kawin,3,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTP,Buruh,Kawin,3,Tembok,Semi-tembok,450,Sumur,1
+Laki-laki,SLTA,Pegawai/Karyawan,Janda,3,Tembok,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Janda,0,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,1,Tembok,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,2,Tembok,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Kayu/bambu,900,Sumur,1
+Perempuan,SD,Dagang,Kawin,3,Tembok,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SD,Pegawai/Karyawan,Janda,0,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,3,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Buruh,Janda,1,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Tani,Kawin,2,Tembok,Semi-tembok,450,Sumur,1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,3,Keramik,Tembok,450,Sumur,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Janda,2,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,SD,Dagang,Janda,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Janda,0,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,3,Tembok,Tembok,450,Mata air/sungai,1
+Perempuan,SLTA,Buruh,Kawin,1,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Tembok,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Janda,1,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,4,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,1,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SD,Buruh,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Tani,Janda,3,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,2,Keramik,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,3,Tembok,Tembok,450,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Kawin,3,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTP,Dagang,Duda,1,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,1,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,4,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Tani,Janda,2,Tembok,Semi-tembok,450,Sumur,1
+Laki-laki,SD,Tidak Bekerja,Kawin,3,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Tani,Janda,2,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Pegawai/Karyawan,Janda,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Tidak Bekerja,Kawin,2,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SLTA,Dagang,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SD,Tani,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,3,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,1,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,4,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,0,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,5,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tani,Kawin,2,Keramik,Tembok,450,Mata air/sungai,1
+Perempuan,SLTA,Pegawai/Karyawan,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,0,Tembok,Kayu/bambu,900,Sumur,1
+Laki-laki,SD,Tidak Bekerja,Kawin,0,Keramik,Tembok,900,Sumur,1
+Laki-laki,SD,Dagang,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTP,Tani,Kawin,3,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,1,Tembok,Tembok,900,Sumur,1
+Perempuan,SLTA,Tidak Bekerja,Janda,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SD,Tani,Kawin,2,Tembok,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tani,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Kawin,1,Tembok,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,2,Tembok,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Janda,4,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Dagang,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,0,Tembok,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,0,Tembok,Tembok,450,Sumur,-1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,5,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SD,Tani,Kawin,2,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Laki-laki,SD,Tidak Bekerja,Janda,2,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Janda,3,Keramik,Semi-tembok,450,Sumur,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Dagang,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,4,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Janda,0,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Janda,3,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,450,Sumur,1
+Perempuan,SLTP,Dagang,Kawin,0,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,4,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Dagang,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,2,Tembok,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTP,Tani,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,1,Tembok,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Tani,Janda,1,Tembok,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Tani,Kawin,2,Keramik,Tembok,450,Mata air/sungai,-1
+Perempuan,SLTP,Dagang,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,4,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tani,Kawin,2,Keramik,Kayu/bambu,450,Sumur,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SLTP,Tani,Duda,3,Keramik,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SLTP,Dagang,Duda,3,Tembok,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,4,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Laki-laki,SD,Buruh,Kawin,3,Keramik,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Dagang,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,900,Mata air/sungai,1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,1,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,3,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Dagang,Janda,1,Keramik,Semi-tembok,900,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,2,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Janda,0,Tembok,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Janda,4,Tembok,Tembok,450,Sumur,1
+Laki-laki,SD,Dagang,Kawin,3,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,0,Tembok,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,2,Kayu/bambu,Semi-tembok,450,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,2,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTP,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Buruh,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SD,Dagang,Kawin,0,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tani,Kawin,0,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SD,Tani,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Janda,1,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Janda,0,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SD,Buruh,Kawin,3,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Dagang,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,3,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Dagang,Kawin,5,Keramik,Tembok,450,Sumur,-1
+Laki-laki,SLTA,Buruh,Janda,0,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Dagang,Kawin,0,Kayu/bambu,Tembok,450,Sumur,-1
+Laki-laki,SLTP,Dagang,Kawin,3,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,0,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,1,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tani,Kawin,0,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Perempuan,SLTP,Buruh,Kawin,0,Keramik,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,3,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Duda,3,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,2,Kayu/bambu,Tembok,450,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,3,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Tani,Kawin,4,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,4,Keramik,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTP,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Janda,5,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Dagang,Janda,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SD,Dagang,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,0,Tembok,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SLTP,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,3,Keramik,Tembok,450,Sumur,-1
+Perempuan,Perguruan Tinggi,Dagang,Janda,3,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Janda,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,2,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Dagang,Janda,2,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Janda,1,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Buruh,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Kayu/bambu,900,Sumur,1
+Perempuan,Perguruan Tinggi,Tani,Kawin,2,Tembok,Tembok,450,Mata air/sungai,-1
+Perempuan,SLTP,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Tidak Bekerja,Kawin,3,Tembok,Tembok,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Janda,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Kawin,4,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Dagang,Janda,1,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Tembok,Semi-tembok,450,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,1,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Tani,Kawin,1,Tembok,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,4,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Kawin,1,Tembok,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,0,Tembok,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,2,Tembok,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTA,Tani,Janda,1,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,3,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SD,Buruh,Janda,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Janda,0,Tembok,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,3,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Dagang,Janda,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Dagang,Janda,2,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,1,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SD,Tani,Kawin,3,Kayu/bambu,Semi-tembok,900,Sumur,1
+Perempuan,SD,Pegawai/Karyawan,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Janda,1,Tembok,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Kawin,2,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Laki-laki,SD,Tani,Kawin,5,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Tembok,900,Sumur,1
+Laki-laki,SLTP,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Tembok,450,Sumur,-1
+Laki-laki,SLTA,Tani,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Kawin,0,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Semi-tembok,900,Sumur,1
+Laki-laki,SLTA,Tani,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,0,Kayu/bambu,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTA,Dagang,Kawin,5,Keramik,Semi-tembok,900,Sumur,-1
+Perempuan,SD,Dagang,Kawin,2,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTP,Tani,Janda,0,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Janda,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,2,Tembok,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Dagang,Janda,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Janda,0,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SD,Tidak Bekerja,Janda,1,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SLTP,Tani,Duda,0,Keramik,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Tembok,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,1,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Buruh,Janda,5,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,1,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,3,Keramik,Tembok,450,Sumur,-1
+Laki-laki,SD,Dagang,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,0,Tembok,Semi-tembok,900,Sumur,1
+Perempuan,SLTP,Tani,Janda,4,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Dagang,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Tembok,Tembok,450,Mata air/sungai,-1
+Perempuan,SD,Pegawai/Karyawan,Janda,1,Tembok,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,3,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Janda,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,3,Keramik,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SD,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,4,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Duda,1,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTP,Dagang,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,3,Tembok,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Buruh,Kawin,0,Tembok,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTP,Dagang,Kawin,4,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SD,Dagang,Kawin,2,Keramik,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTA,Dagang,Kawin,0,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,4,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SLTP,Buruh,Kawin,1,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Janda,1,Tembok,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,4,Tembok,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Kawin,1,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SLTA,Tani,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,3,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTA,Dagang,Janda,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,3,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,0,Tembok,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,1,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Dagang,Kawin,5,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Duda,2,Keramik,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Tani,Duda,2,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SLTA,Dagang,Kawin,3,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Dagang,Janda,3,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Tani,Janda,1,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,3,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Janda,2,Tembok,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Kawin,4,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SLTA,Dagang,Kawin,1,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Kawin,3,Keramik,Semi-tembok,450,Sumur,1
+Perempuan,SD,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Semi-tembok,900,Sumur,-1
+Perempuan,Perguruan Tinggi,Tani,Kawin,1,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,0,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SLTA,Dagang,Kawin,2,Tembok,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SD,Buruh,Kawin,0,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Janda,3,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SD,Buruh,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,3,Tembok,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Tani,Janda,0,Tembok,Tembok,450,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,0,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Duda,5,Keramik,Tembok,450,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Dagang,Janda,0,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SLTP,Tani,Duda,0,Keramik,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Tembok,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,3,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SD,Dagang,Kawin,1,Keramik,Semi-tembok,450,Sumur,-1
+Perempuan,SLTP,Dagang,Janda,3,Tembok,Semi-tembok,900,Sumur,-1
+Laki-laki,Perguruan Tinggi,Buruh,Duda,2,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Tembok,450,Sumur,-1
+Perempuan,SD,Tani,Janda,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SD,Buruh,Kawin,4,Kayu/bambu,Semi-tembok,900,Sumur,1
+Laki-laki,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Duda,0,Tembok,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Tembok,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Kayu/bambu,900,Mata air/sungai,-1
+Perempuan,SD,Buruh,Janda,2,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,3,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,4,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Perempuan,SLTA,Buruh,Janda,2,Tembok,Kayu/bambu,450,Sumur,1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTA,Tidak Bekerja,Duda,1,Tembok,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Buruh,Duda,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,5,Keramik,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,3,Keramik,Tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,3,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tani,Kawin,1,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,0,Tembok,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTA,Dagang,Janda,5,Keramik,Kayu/bambu,900,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Dagang,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTA,Tani,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,3,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,450,Mata air/sungai,-1
+Perempuan,SLTP,Tani,Kawin,3,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTP,Dagang,Janda,3,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SD,Pegawai/Karyawan,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,SD,Pegawai/Karyawan,Janda,2,Keramik,Semi-tembok,450,Mata air/sungai,-1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Semi-tembok,900,Sumur,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Tidak Bekerja,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Janda,2,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,1,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,3,Keramik,Tembok,450,Sumur,1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Janda,1,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Buruh,Duda,3,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,1,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTP,Dagang,Duda,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,3,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,3,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,0,Tembok,Tembok,450,Mata air/sungai,1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,1,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,2,Keramik,Kayu/bambu,450,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Buruh,Kawin,2,Keramik,Semi-tembok,450,Sumur,1
+Perempuan,SD,Buruh,Kawin,5,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Janda,4,Kayu/bambu,Tembok,450,Sumur,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,3,Keramik,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTP,Buruh,Janda,3,Keramik,Tembok,900,Sumur,1
+Laki-laki,SD,Tani,Janda,3,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tani,Janda,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Tembok,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Tidak Bekerja,Janda,0,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Perempuan,SD,Buruh,Janda,0,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,3,Tembok,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Tani,Kawin,1,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,3,Keramik,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Dagang,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Duda,2,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Tidak Bekerja,Janda,1,Keramik,Tembok,900,Sumur,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Tembok,450,Mata air/sungai,-1
+Perempuan,SD,Pegawai/Karyawan,Kawin,5,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SD,Dagang,Kawin,4,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SD,Buruh,Kawin,5,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,2,Tembok,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Janda,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tani,Kawin,5,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTP,Dagang,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,3,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Janda,1,Keramik,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Duda,1,Tembok,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Duda,0,Tembok,Semi-tembok,450,Mata air/sungai,-1
+Laki-laki,SLTP,Buruh,Kawin,1,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Buruh,Duda,1,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Duda,0,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,SLTP,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Janda,1,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Duda,2,Tembok,Tembok,450,Sumur,-1
+Perempuan,SD,Dagang,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,3,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Dagang,Kawin,3,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTP,Buruh,Kawin,4,Tembok,Tembok,900,Sumur,1
+Perempuan,SD,Buruh,Kawin,3,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,2,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Tani,Janda,0,Tembok,Tembok,900,Sumur,1
+Perempuan,SD,Tidak Bekerja,Kawin,3,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Duda,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Duda,1,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,1,Keramik,Tembok,450,Sumur,1
+Laki-laki,SD,Tani,Kawin,1,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,1,Keramik,Kayu/bambu,450,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,1,Keramik,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Tembok,450,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Dagang,Kawin,2,Keramik,Tembok,450,Mata air/sungai,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Tembok,Kayu/bambu,900,Sumur,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,2,Keramik,Tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,0,Tembok,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,3,Keramik,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,2,Keramik,Tembok,900,Sumur,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,1,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,0,Kayu/bambu,Tembok,450,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,2,Tembok,Semi-tembok,450,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,2,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,SD,Buruh,Kawin,0,Keramik,Kayu/bambu,900,Sumur,1
+Perempuan,SLTA,Buruh,Kawin,5,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,3,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Dagang,Kawin,3,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,2,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SD,Tidak Bekerja,Kawin,2,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Tani,Kawin,1,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Buruh,Janda,0,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,3,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Tidak Bekerja,Janda,3,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,0,Keramik,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTP,Tidak Bekerja,Janda,2,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTA,Tani,Kawin,2,Keramik,Kayu/bambu,900,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,SD,Buruh,Kawin,0,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Perempuan,SD,Buruh,Duda,1,Tembok,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,1,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTP,Buruh,Janda,3,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,3,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,4,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,5,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,1,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Buruh,Kawin,4,Tembok,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Janda,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTP,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Janda,2,Keramik,Semi-tembok,900,Sumur,1
+Perempuan,Perguruan Tinggi,Dagang,Janda,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,4,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Tani,Kawin,3,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Tani,Janda,0,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,2,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Dagang,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Tani,Duda,4,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,1,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,0,Keramik,Tembok,450,Sumur,1
+Laki-laki,SD,Buruh,Janda,2,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SD,Pegawai/Karyawan,Janda,2,Kayu/bambu,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,0,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,3,Tembok,Semi-tembok,900,Sumur,1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,0,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,2,Tembok,Kayu/bambu,450,Sumur,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SD,Tidak Bekerja,Kawin,0,Tembok,Tembok,450,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Buruh,Janda,0,Keramik,Tembok,450,Mata air/sungai,-1
+Laki-laki,SD,Buruh,Kawin,3,Keramik,Semi-tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Kawin,3,Keramik,Tembok,450,Mata air/sungai,-1
+Perempuan,SLTA,Dagang,Kawin,5,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,1,Tembok,Semi-tembok,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,2,Keramik,Semi-tembok,450,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,450,Sumur,1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Pegawai/Karyawan,Kawin,0,Tembok,Kayu/bambu,450,Sumur,-1
+Laki-laki,SD,Buruh,Duda,3,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SD,Tani,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,3,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Kawin,0,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,0,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,0,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Janda,2,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,0,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,4,Keramik,Tembok,450,Mata air/sungai,-1
+Laki-laki,SLTP,Buruh,Janda,2,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Tani,Janda,3,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTA,Tani,Duda,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Tidak Bekerja,Janda,0,Keramik,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTP,Buruh,Janda,1,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Duda,3,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Janda,0,Tembok,Tembok,900,Sumur,1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Semi-tembok,450,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Kayu/bambu,Kayu/bambu,450,Mata air/sungai,1
+Perempuan,SD,Buruh,Kawin,4,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Kawin,3,Keramik,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Buruh,Kawin,5,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Dagang,Kawin,3,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Tembok,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Kawin,3,Keramik,Semi-tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tani,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Duda,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tidak Bekerja,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Keramik,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Janda,0,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,3,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Pegawai/Karyawan,Duda,3,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,3,Tembok,Semi-tembok,900,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Duda,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Janda,1,Tembok,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Janda,0,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTA,Buruh,Janda,3,Keramik,Tembok,450,Sumur,1
+Perempuan,SLTA,Buruh,Janda,0,Keramik,Semi-tembok,900,Sumur,-1
+Perempuan,SLTA,Pegawai/Karyawan,Janda,0,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Perempuan,SD,Tidak Bekerja,Janda,2,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SD,Dagang,Janda,0,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,1,Tembok,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Janda,2,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Janda,1,Keramik,Semi-tembok,900,Mata air/sungai,1
+Laki-laki,Perguruan Tinggi,Pegawai/Karyawan,Janda,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Kawin,1,Kayu/bambu,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Dagang,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,1,Tembok,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Dagang,Kawin,2,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SD,Buruh,Kawin,2,Tembok,Semi-tembok,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,1,Keramik,Kayu/bambu,900,Sumur,1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Semi-tembok,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Kawin,3,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,3,Kayu/bambu,Semi-tembok,450,Sumur,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,2,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Kayu/bambu,450,Sumur,1
+Perempuan,SD,Tani,Kawin,2,Keramik,Tembok,450,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Pegawai/Karyawan,Janda,5,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,4,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SD,Tani,Kawin,3,Tembok,Kayu/bambu,450,Sumur,1
+Laki-laki,SD,Pegawai/Karyawan,Duda,0,Kayu/bambu,Tembok,450,Sumur,-1
+Perempuan,SLTP,Dagang,Kawin,0,Tembok,Semi-tembok,450,Sumur,-1
+Laki-laki,SLTA,Dagang,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,5,Keramik,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTA,Buruh,Janda,1,Keramik,Kayu/bambu,450,Sumur,1
+Laki-laki,SLTP,Tani,Janda,0,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTA,Tani,Janda,2,Tembok,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SD,Tidak Bekerja,Kawin,3,Keramik,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,3,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Kayu/bambu,450,Mata air/sungai,1
+Laki-laki,SLTP,Dagang,Kawin,5,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,0,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Perempuan,SLTP,Dagang,Duda,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,1,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,1,Tembok,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTA,Buruh,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SD,Buruh,Kawin,0,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SLTA,Buruh,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,3,Kayu/bambu,Kayu/bambu,900,Sumur,1
+Perempuan,SLTP,Dagang,Janda,1,Tembok,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,3,Keramik,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,2,Keramik,Tembok,900,Sumur,-1
+Perempuan,Perguruan Tinggi,Dagang,Janda,1,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Tembok,450,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,2,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SD,Dagang,Kawin,5,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,900,Mata air/sungai,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTP,Dagang,Janda,0,Kayu/bambu,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,4,Keramik,Tembok,450,Sumur,1
+Perempuan,SLTA,Tani,Kawin,0,Keramik,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Buruh,Kawin,1,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,3,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SD,Tidak Bekerja,Janda,4,Keramik,Semi-tembok,450,Sumur,1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,2,Tembok,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,2,Tembok,Tembok,900,Sumur,1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Semi-tembok,450,Sumur,-1
+Perempuan,SD,Dagang,Janda,2,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Dagang,Kawin,3,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Dagang,Kawin,0,Kayu/bambu,Kayu/bambu,450,Sumur,-1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,1,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Perempuan,SD,Dagang,Kawin,2,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Duda,3,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Dagang,Janda,2,Tembok,Semi-tembok,450,Mata air/sungai,1
+Perempuan,SD,Tani,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,3,Kayu/bambu,Tembok,450,Sumur,1
+Laki-laki,SLTP,Tani,Kawin,3,Kayu/bambu,Semi-tembok,900,Sumur,1
+Laki-laki,SLTA,Buruh,Kawin,3,Keramik,Tembok,450,Sumur,1
+Perempuan,SLTP,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Perempuan,SD,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Buruh,Kawin,0,Keramik,Tembok,900,PAM/berbayar,1
+Laki-laki,SD,Tani,Kawin,2,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTA,Tani,Janda,0,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTA,Tani,Kawin,0,Tembok,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,3,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tani,Janda,3,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SD,Tani,Kawin,0,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,1,Keramik,Tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Buruh,Janda,1,Kayu/bambu,Semi-tembok,900,Sumur,1
+Perempuan,SLTP,Buruh,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Buruh,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Tani,Kawin,2,Kayu/bambu,Semi-tembok,900,Sumur,1
+Laki-laki,SLTA,Tani,Kawin,0,Keramik,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Kawin,0,Tembok,Tembok,450,Sumur,1
+Laki-laki,SLTA,Tidak Bekerja,Kawin,1,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,1,Tembok,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTP,Buruh,Kawin,3,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SD,Dagang,Kawin,2,Keramik,Semi-tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,0,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,1,Tembok,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,3,Tembok,Tembok,900,PAM/berbayar,-1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTP,Buruh,Kawin,1,Tembok,Tembok,900,Mata air/sungai,1
+Perempuan,SLTP,Tani,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Kawin,1,Keramik,Tembok,900,Sumur,1
+Perempuan,SLTP,Tani,Kawin,0,Keramik,Tembok,450,Sumur,-1
+Perempuan,SLTA,Tani,Duda,1,Tembok,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Dagang,Kawin,1,Tembok,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,1,Kayu/bambu,Kayu/bambu,450,Sumur,1
+Perempuan,SLTP,Dagang,Janda,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,0,Tembok,Kayu/bambu,900,Mata air/sungai,-1
+Perempuan,SLTP,Tani,Janda,0,Tembok,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Tidak Bekerja,Janda,1,Tembok,Tembok,900,Sumur,1
+Perempuan,SD,Tani,Kawin,2,Keramik,Semi-tembok,900,Sumur,1
+Laki-laki,SLTP,Pegawai/Karyawan,Janda,1,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Buruh,Kawin,0,Kayu/bambu,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Tidak Bekerja,Janda,2,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,5,Kayu/bambu,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Buruh,Kawin,4,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Dagang,Kawin,2,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Pegawai/Karyawan,Kawin,0,Keramik,Semi-tembok,900,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Kawin,0,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,4,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTA,Tani,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Janda,0,Keramik,Tembok,900,Sumur,1
+Perempuan,SLTA,Buruh,Kawin,1,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,0,Keramik,Kayu/bambu,900,Sumur,-1
+Perempuan,SLTA,Tani,Duda,3,Keramik,Kayu/bambu,900,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,1,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Janda,2,Keramik,Semi-tembok,450,Sumur,-1
+Laki-laki,SLTP,Tani,Kawin,1,Keramik,Semi-tembok,900,Sumur,-1
+Perempuan,SD,Buruh,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SD,Dagang,Kawin,2,Kayu/bambu,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,2,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,1,Tembok,Semi-tembok,900,Sumur,-1
+Perempuan,Perguruan Tinggi,Dagang,Kawin,0,Kayu/bambu,Semi-tembok,900,Sumur,-1
+Laki-laki,SD,Pegawai/Karyawan,Kawin,3,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tani,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,1,Kayu/bambu,Tembok,900,Sumur,-1
+Laki-laki,SLTA,Buruh,Kawin,2,Kayu/bambu,Tembok,900,Sumur,1
+Laki-laki,SD,Tani,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,2,Kayu/bambu,Semi-tembok,900,PAM/berbayar,1
+Laki-laki,SD,Pegawai/Karyawan,Janda,0,Keramik,Kayu/bambu,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,3,Kayu/bambu,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Buruh,Kawin,3,Keramik,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SD,Tani,Kawin,0,Tembok,Kayu/bambu,450,Sumur,1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,3,Keramik,Kayu/bambu,900,Sumur,-1
+Laki-laki,SD,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Tidak Bekerja,Kawin,2,Tembok,Kayu/bambu,900,PAM/berbayar,1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,2,Kayu/bambu,Tembok,900,PAM/berbayar,1
+Laki-laki,Perguruan Tinggi,Tani,Kawin,1,Keramik,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Tidak Bekerja,Kawin,4,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Laki-laki,SLTP,Tani,Kawin,0,Kayu/bambu,Semi-tembok,900,Sumur,1
+Perempuan,SLTA,Tidak Bekerja,Kawin,1,Keramik,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,Perguruan Tinggi,Buruh,Kawin,2,Tembok,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTP,Buruh,Janda,0,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SD,Tidak Bekerja,Duda,2,Keramik,Tembok,450,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,1,Keramik,Semi-tembok,900,Mata air/sungai,-1
+Perempuan,SLTA,Dagang,Kawin,5,Keramik,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Tani,Kawin,1,Tembok,Kayu/bambu,900,Mata air/sungai,-1
+Laki-laki,Perguruan Tinggi,Buruh,Janda,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Tidak Bekerja,Janda,2,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,1,Kayu/bambu,Tembok,900,Mata air/sungai,-1
+Laki-laki,Perguruan Tinggi,Dagang,Kawin,1,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SD,Tidak Bekerja,Duda,1,Keramik,Semi-tembok,900,Mata air/sungai,1
+Perempuan,SLTA,Tani,Kawin,1,Keramik,Semi-tembok,450,Sumur,-1
+Perempuan,SD,Tidak Bekerja,Kawin,0,Tembok,Tembok,900,Sumur,1
+Perempuan,SLTA,Tani,Kawin,0,Tembok,Kayu/bambu,900,PAM/berbayar,-1
+Perempuan,SLTP,Tani,Janda,3,Keramik,Semi-tembok,450,Mata air/sungai,1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,0,Keramik,Tembok,900,Sumur,-1
+Laki-laki,SLTP,Pegawai/Karyawan,Kawin,2,Keramik,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,Perguruan Tinggi,Tani,Kawin,2,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,2,Kayu/bambu,Kayu/bambu,900,PAM/berbayar,-1
+Laki-laki,SLTP,Dagang,Kawin,2,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Laki-laki,SD,Tani,Kawin,2,Keramik,Tembok,900,Mata air/sungai,1
+Laki-laki,SD,Tidak Bekerja,Janda,3,Tembok,Kayu/bambu,900,Sumur,1
+Perempuan,SLTA,Dagang,Kawin,3,Kayu/bambu,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Pegawai/Karyawan,Kawin,1,Keramik,Kayu/bambu,450,Sumur,-1
+Perempuan,SLTP,Tani,Kawin,1,Tembok,Semi-tembok,450,PAM/berbayar,-1
+Perempuan,SLTA,Tidak Bekerja,Janda,1,Kayu/bambu,Tembok,900,Sumur,1
+Perempuan,Perguruan Tinggi,Tidak Bekerja,Kawin,0,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Perempuan,SLTP,Dagang,Kawin,0,Keramik,Kayu/bambu,450,Mata air/sungai,-1
+Perempuan,SLTP,Buruh,Kawin,3,Keramik,Kayu/bambu,900,PAM/berbayar,1
+Perempuan,SD,Buruh,Kawin,0,Kayu/bambu,Semi-tembok,900,Sumur,1
+Laki-laki,Perguruan Tinggi,Tidak Bekerja,Kawin,1,Kayu/bambu,Tembok,450,PAM/berbayar,1
+Laki-laki,SLTP,Buruh,Kawin,0,Kayu/bambu,Kayu/bambu,450,PAM/berbayar,1
+Perempuan,SD,Buruh,Janda,0,Keramik,Tembok,900,Mata air/sungai,1
+Laki-laki,SLTA,Dagang,Kawin,4,Kayu/bambu,Tembok,450,PAM/berbayar,-1
+Perempuan,SD,Buruh,Janda,4,Keramik,Tembok,900,PAM/berbayar,1
+Perempuan,SLTA,Tani,Kawin,3,Kayu/bambu,Tembok,450,Sumur,1
+Perempuan,SLTA,Dagang,Kawin,1,Keramik,Tembok,900,Sumur,-1
+Perempuan,SLTP,Tidak Bekerja,Kawin,0,Tembok,Tembok,900,PAM/berbayar,1
+Perempuan,SLTP,Pegawai/Karyawan,Kawin,4,Tembok,Tembok,900,PAM/berbayar,-1
+Laki-laki,SLTA,Dagang,Janda,3,Kayu/bambu,Tembok,900,Sumur,-1

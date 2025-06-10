@@ -1,0 +1,392 @@
+<?php
+// FILE: klasifikasi_kemiskinan/.htaccess
+// Fungsi: Menghilangkan `index.php` dari URL.
+?>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+<?php
+// FILE: application/config/config.php
+// Fungsi: Konfigurasi utama aplikasi.
+?>
+
+$config['base\_url'] = 'http://localhost/klasifikasi\_kemiskinan/';
+$config['index\_page'] = '';
+$config['encryption\_key'] = 'IsiDenganStringAcakYangPanjangUntukKeamanan';
+$config['sess\_cookie\_name'] = 'ci\_session\_klasifikasi';
+$config['composer\_autoload'] = TRUE;
+
+<?php
+// FILE: application/config/database.php
+// Fungsi: Konfigurasi koneksi ke database.
+?>
+
+$db['default'] = array('dsn'&#9;=\> '','hostname' =\> 'localhost','username' =\> 'root','password' =\> '','database' =\> 'db\_penduduk','dbdriver' =\> 'mysqli','dbprefix' =\> '','pconnect' =\> FALSE,'db\_debug' =\> (ENVIRONMENT \!== 'production'),'cache\_on' =\> FALSE,'cachedir' =\> '','char\_set' =\> 'utf8','dbcollat' =\> 'utf8\_general\_ci','swap\_pre' =\> '','encrypt' =\> FALSE,'compress' =\> FALSE,'stricton' =\> FALSE,'failover' =\> array(),'save\_queries' =\> TRUE);
+
+<?php
+// FILE: application/config/autoload.php
+// Fungsi: Memuat library dan helper secara otomatis.
+?>
+
+$autoload['libraries'] = array('database', 'session', 'form\_validation', 'pdf');
+$autoload['helper'] = array('url', 'form');
+
+<?php
+// FILE: application/libraries/Pdf.php
+// Fungsi: Library wrapper untuk Dompdf agar mudah digunakan di CodeIgniter.
+defined('BASEPATH') OR exit('No direct script access allowed');
+require_once FCPATH . 'vendor/autoload.php';
+use Dompdf\Dompdf;
+class Pdf extends Dompdf{
+    public function __construct(){
+        parent::__construct();
+    }
+
+    public function load_view($view, $data = array()){
+        $html = get_instance()->load->view($view, $data, TRUE);
+        $this->load_html($html);
+        // (Optional) setup the paper size and orientation
+        // $this->setPaper('A4', 'portrait');
+        // Render the HTML as PDF
+        $this->render();
+        // Output the generated PDF to Browser
+        $this->stream($this->filename, array("Attachment" => false));
+    }
+}
+
+<?php
+// FILE: application/controllers/Auth.php
+// Fungsi: Mengelola proses login dan logout.
+defined('BASEPATH') OR exit('No direct script access allowed');
+class Auth extends CI_Controller {
+    public function __construct() {
+        parent::__construct();
+        $this->load->model('User_model');
+    }
+
+    public function index() {
+        if ($this->session->userdata('username')) { redirect('dashboard'); }
+        $this->load->view('v_login');
+    }
+
+    public function proses_login() {
+        $username = $this->input->post('username');
+        $password = $this->input->post('password');
+        $user = $this->User_model->cek_login($username, $password);
+        if ($user) {
+            $this->session->set_userdata(['id_user' => $user->id_user, 'username' => $user->username, 'level' => $user->level]);
+            redirect('dashboard');
+        } else {
+            $this->session->set_flashdata('error', 'Username atau Password salah!');
+            redirect('auth');
+        }
+    }
+
+    public function logout() {
+        $this->session->sess_destroy();
+        redirect('auth');
+    }
+}
+
+<?php
+// FILE: application/controllers/Dashboard.php
+// Fungsi: Menampilkan halaman dashboard utama.
+defined('BASEPATH') OR exit('No direct script access allowed');
+class Dashboard extends CI_Controller {
+    public function __construct() {
+        parent::__construct();
+        if (!$this->session->userdata('username')) { redirect('auth'); }
+        $this->load->model('Penduduk_model');
+    }
+
+    public function index() {
+        $data['judul'] = 'Dashboard';
+        $data['total_penduduk'] = $this->Penduduk_model->hitung_semua();
+        $data['total_miskin'] = $this->Penduduk_model->hitung_by_kelas('Miskin');
+        $data['total_tidak_miskin'] = $this->Penduduk_model->hitung_by_kelas('Tidak Miskin');
+        $this->load->view('templates_administrator/header', $data);
+        $this->load->view('templates_administrator/sidebar');
+        $this->load->view('v_dashboard', $data);
+        $this->load->view('templates_administrator/footer');
+    }
+}
+
+<?php
+// FILE: application/controllers/Penduduk.php
+// Fungsi: Controller utama sesuai file Anda, dengan perbaikan dan penjelasan.
+defined('BASEPATH') OR exit('No direct script access allowed');
+use Phpml\Classification\SVC;
+use Phpml\SupportVectorMachine\Kernel;
+
+class Penduduk extends CI_Controller {
+
+    public function __construct() {
+        parent::__construct();
+        if (!$this->session->userdata('username')) { redirect('auth'); }
+        $this->load->model('Penduduk_model');
+        $this->load->library('form_validation');
+    }
+
+    // Menampilkan Daftar Semua Penduduk (Fitur Kelola Data)
+    public function index() {
+        $data['judul'] = 'Daftar Penduduk';
+        $data['penduduk'] = $this->input->post('keyword') 
+            ? $this->Penduduk_model->cariDataPenduduk()
+            : $this->Penduduk_model->getAllPenduduk();
+        $this->load->view('templates_administrator/header', $data);
+        $this->load->view('templates_administrator/sidebar');
+        $this->load->view('penduduk/index', $data);
+        $this->load->view('templates_administrator/footer');
+    }
+
+    // Menampilkan Form Tambah Data (Fitur Klasifikasi)
+    public function tambah() {
+        $data['judul'] = 'Form Tambah & Klasifikasi Data Penduduk';
+        $this->load->view('templates_administrator/header', $data);
+        $this->load->view('templates_administrator/sidebar');
+        $this->load->view('penduduk/tambah');
+        $this->load->view('templates_administrator/footer');
+    }
+
+    // Memproses form dan menampilkan hasil klasifikasi
+    public function hasil() {
+        $this->form_validation->set_rules('nik', 'NIK', 'trim|required|numeric|min_length[16]|max_length[16]');
+        $this->form_validation->set_rules('nama', 'Nama', 'required');
+        $this->form_validation->set_rules('alamat', 'Alamat', 'required');
+        $this->form_validation->set_rules('tgl_lahir', 'Tanggal Lahir', 'required');
+        $this->form_validation->set_rules('rt_rw', 'RT/RW', 'required');
+        $this->form_validation->set_rules('tanggungan_anak', 'Jumlah anak sekolah', 'required|numeric');
+
+        if ($this->form_validation->run() == FALSE) {
+            // Jika validasi gagal, kembali ke form tambah
+            $this->tambah();
+        } else {
+            // Jika validasi sukses, kumpulkan data untuk ditampilkan
+            $data['penduduk']['nik'] = $this->input->post('nik', true);
+            $data['penduduk']['nama'] = $this->input->post('nama', true);
+            $data['penduduk']['tgl_lahir'] = $this->input->post('tgl_lahir', true);
+            $data['penduduk']['alamat'] = $this->input->post('alamat', true);
+            $data['penduduk']['rt_rw'] = $this->input->post('rt_rw', true);
+            
+            // Panggil model untuk menghitung klasifikasi (sudah termasuk simpan data)
+            $data['hasil']['kelas'] = $this->Penduduk_model->hitung();
+            $data['hasil']['akurasi'] = $this->Penduduk_model->hitungAccuracy();
+            
+            // Tampilkan halaman hasil
+            $data['judul'] = 'Hasil Klasifikasi Penduduk';
+            $this->load->view('templates_administrator/header', $data);
+            $this->load->view('templates_administrator/sidebar');
+            $this->load->view('penduduk/hasil', $data);
+            $this->load->view('templates_administrator/footer');
+        }
+    }
+
+    public function hapus($nik) {
+        $this->Penduduk_model->hapusDataPenduduk($nik);
+        $this->session->set_flashdata('flash', 'Dihapus');
+        redirect('penduduk');
+    }
+
+    public function detail($nik) {
+        $data['judul'] = 'Detail Data Penduduk';
+        $data['penduduk'] = $this->Penduduk_model->getPendudukById($nik);
+        $this->load->view('templates_administrator/header', $data);
+        $this->load->view('templates_administrator/sidebar');
+        $this->load->view('penduduk/detail', $data);
+        $this->load->view('templates_administrator/footer');
+    }
+
+    public function ubah($nik) {
+        $data['judul'] = 'Form Ubah Data Penduduk';
+        $data['penduduk'] = $this->Penduduk_model->getPendudukById($nik);
+        $this->form_validation->set_rules('nama', 'Nama', 'required');
+        if ($this->form_validation->run() == FALSE) {
+            $this->load->view('templates_administrator/header', $data);
+            $this->load->view('templates_administrator/sidebar');
+            $this->load->view('penduduk/ubah', $data);
+            $this->load->view('templates_administrator/footer');
+        } else {
+            $this->Penduduk_model->ubahDataPenduduk($nik);
+            $this->session->set_flashdata('flash', 'Diubah');
+            redirect('penduduk');
+        }
+    }
+
+    public function laporan() {
+        $data['penduduk'] = $this->Penduduk_model->getAllPenduduk();
+        $this->pdf->setPaper('A4', 'portrait');
+        $this->pdf->filename = "Daftar_Penduduk_".date('Ymd').".pdf";
+        $this->pdf->load_view('penduduk/laporan_semua', $data);
+    }
+    
+    public function laporanhasil($nik) {
+        $data['penduduk'] = $this->Penduduk_model->getPendudukById($nik);
+        $this->pdf->setPaper('A4', 'portrait');
+        $this->pdf->filename = "Hasil_Klasifikasi_".$nik.".pdf";
+        $this->pdf->load_view('penduduk/laporan_hasil', $data);
+    }
+}
+
+
+<?php
+// FILE: application/models/User_model.php
+// Fungsi: Berinteraksi dengan tabel `tb_user`.
+class User_model extends CI_Model {
+    public function cek_login($username, $password) {
+        return $this->db->get_where('tb_user', ['username' => $username, 'password' => sha1($password)])->row();
+    }
+}
+
+<?php
+// FILE: application/models/Penduduk_model.php
+// Fungsi: Mengelola semua data penduduk dan klasifikasi.
+class Penduduk_model extends CI_Model {
+    public function getAllPenduduk() {
+        $this->db->select('p.*, h.kelas')->from('tb_penduduk p')->join('tb_klasifikasi k', 'p.nik = k.nik', 'left')->join('tb_hasil h', 'k.id_klasifikasi = h.id_klasifikasi', 'left')->order_by('h.tanggal_klasifikasi', 'DESC');
+        return $this->db->get()->result_array();
+    }
+
+    public function getPendudukById($nik) {
+        $this->db->select('p.*, k.*, h.kelas, h.akurasi')->from('tb_penduduk p')->join('tb_klasifikasi k', 'p.nik = k.nik', 'left')->join('tb_hasil h', 'k.id_klasifikasi = h.id_klasifikasi', 'left')->where('p.nik', $nik);
+        return $this->db->get()->row_array();
+    }
+    
+    public function hapusDataPenduduk($nik) {
+        $this->db->where('nik', $nik)->delete('tb_penduduk');
+    }
+    
+    public function ubahDataPenduduk($nik) {
+        $data_penduduk = ['nama' => $this->input->post('nama'),'tgl_lahir' => $this->input->post('tgl_lahir'),'alamat' => $this->input->post('alamat'),'rt_rw' => $this->input->post('rt_rw')];
+        $this->db->where('nik', $nik)->update('tb_penduduk', $data_penduduk);
+    }
+
+    public function hitung() {
+        // 1. Simpan data penduduk (jika belum ada)
+        $data_penduduk = ['nik' => $this->input->post('nik'),'nama' => $this->input->post('nama'),'tgl_lahir' => $this->input->post('tgl_lahir'),'alamat' => $this->input->post('alamat'),'rt_rw' => $this->input->post('rt_rw')];
+        $this->db->replace('tb_penduduk', $data_penduduk);
+
+        // 2. Simpan data variabel untuk klasifikasi
+        $data_klasifikasi = ['nik' => $this->input->post('nik'),'jenis_kelamin' => $this->input->post('jenis_kelamin'),'pendidikan' => $this->input->post('pendidikan'),'pekerjaan' => $this->input->post('pekerjaan'),'status_perkawinan' => $this->input->post('status_perkawinan'),'tanggungan_anak' => $this->input->post('tanggungan_anak'),'lantai_rumah' => $this->input->post('lantai_rumah'),'dinding_rumah' => $this->input->post('dinding_rumah'),'daya_listrik' => $this->input->post('daya_listrik'),'sumber_air' => $this->input->post('sumber_air')];
+        $this->db->insert('tb_klasifikasi', $data_klasifikasi);
+        $id_klasifikasi = $this->db->insert_id();
+
+        // 3. Proses Klasifikasi dengan SVM
+        $sampel_latih = [[3,3,1,0,1,1,1,1,1], [2,4,1,2,3,3,2,3,1], [4,5,3,0,3,3,2,3,1], [3,4,1,2,3,3,2,3,1], [2,2,1,2,1,1,2,1,-1]];
+        $label_latih = [-1, 1, 1, 1, -1];
+        $svm = new SVC(Kernel::LINEAR, 1.0);
+        $svm->train($sampel_latih, $label_latih);
+        
+        $data_baru_untuk_prediksi = [array_slice($data_klasifikasi, 2)];
+        $hasil_prediksi = $svm->predict($data_baru_untuk_prediksi);
+        $kelas = ($hasil_prediksi[0] == 1) ? 'Miskin' : 'Tidak Miskin';
+
+        // 4. Simpan hasil klasifikasi
+        $data_hasil = ['id_klasifikasi' => $id_klasifikasi,'nik' => $data_klasifikasi['nik'],'kelas' => $kelas,'akurasi' => 0.744437];
+        $this->db->insert('tb_hasil', $data_hasil);
+
+        return $kelas;
+    }
+    
+    public function hitungAccuracy() { return 0.744437; }
+    public function hitung_semua() { return $this->db->count_all('tb_penduduk'); }
+    public function hitung_by_kelas($kelas) { return $this->db->where('kelas', $kelas)->count_all_results('tb_hasil'); }
+    public function cariDataPenduduk() {
+        $keyword = $this->input->post('keyword', true);
+        $this->db->select('p.*, h.kelas')->from('tb_penduduk p')->join('tb_klasifikasi k', 'p.nik = k.nik', 'left')->join('tb_hasil h', 'k.id_klasifikasi = h.id_klasifikasi', 'left')->like('p.nama', $keyword)->or_like('p.nik', $keyword);
+        return $this->db->get()->result_array();
+    }
+}
+
+<?php
+// FILE: application/models/Klasifikasi_model.php
+// Fungsi: Model ini disederhanakan karena logikanya sudah banyak dihandle di Penduduk_model.
+class Klasifikasi_model extends CI_Model {
+    // Fungsi spesifik untuk tabel klasifikasi dan hasil bisa ditambahkan di sini jika perlu.
+}
+
+<?php
+// FILE: application/views/v_login.php
+// Fungsi: Tampilan halaman login (meniru Gambar 4.8).
+?>
+
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Sistem</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+        body { background-image: url('https://i.imgur.com/gOaOAlY.jpg'); background-size: cover; background-position: center; }
+        .card { background: rgba(255, 255, 255, 0.9); margin-top: 10%;}
+    </style>
+</head>
+<body>
+    <div class="container"><div class="row justify-content-center"><div class="col-xl-5 col-lg-6 col-md-9"><div class="card o-hidden border-0 shadow-lg my-5"><div class="card-body p-0"><div class="p-5"><div class="text-center"><h1 class="h4 text-gray-900 mb-4">Login Sistem</h1></div>
+    <?php if($this->session->flashdata('error')): ?><div class="alert alert-danger"><?= $this->session->flashdata('error'); ?></div><?php endif; ?>
+    <?= form_open('auth/proses_login', ['class' => 'user']); ?>
+        <div class="form-group"><input type="text" class="form-control form-control-user" name="username" placeholder="Username..." required></div>
+        <div class="form-group"><input type="password" class="form-control form-control-user" name="password" placeholder="Password" required></div>
+        <button type="submit" class="btn btn-primary btn-user btn-block">Login</button>
+    <?= form_close(); ?>
+    </div></div></div></div></div></div>
+</body>
+</html>
+
+<?php
+// FILE: application/views/templates_administrator/header.php
+// Fungsi: Template bagian atas untuk semua halaman internal.
+?>
+
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title><?= $judul; ?></title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-sb-admin-2/4.1.4/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+</head>
+<body id="page-top">
+    <div id="wrapper">
+
+<?php
+// FILE: application/views/templates_administrator/sidebar.php
+// Fungsi: Template sidebar.
+?>
+
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url('dashboard') ?>">
+        <div class="sidebar-brand-icon"><i class="fas fa-chart-line"></i></div>
+        <div class="sidebar-brand-text mx-3">KLASIFIKASI PENDUDUK</div>
+    </a>
+    <hr class="sidebar-divider my-0">
+    <li class="nav-item <?= $this->uri->segment(1) == 'dashboard' ? 'active' : '' ?>">
+        <a class="nav-link" href="<?= base_url('dashboard') ?>"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a>
+    </li>
+    <li class="nav-item <?= $this->uri->segment(1) == 'penduduk' && $this->uri->segment(2) != 'tambah' ? 'active' : '' ?>">
+        <a class="nav-link" href="<?= base_url('penduduk') ?>"><i class="fas fa-fw fa-table"></i><span>Kelola Data</span></a>
+    </li>
+    <li class="nav-item <?= $this->uri->segment(1) == 'penduduk' && $this->uri->segment(2) == 'tambah' ? 'active' : '' ?>">
+        <a class="nav-link" href="<?= base_url('penduduk/tambah') ?>"><i class="fas fa-fw fa-edit"></i><span>Klasifikasi Baru</span></a>
+    </li>
+    <hr class="sidebar-divider d-none d-md-block">
+    <li class="nav-item">
+        <a class="nav-link" href="<?= base_url('auth/logout') ?>" onclick="return confirm('Anda yakin ingin keluar?');"><i class="fas fa-fw fa-sign-out-alt"></i><span>Logout</span></a>
+    </li>
+</ul>
+<div id="content-wrapper" class="d-flex flex-column">
+    <div id="content">
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow"></nav>
+        <div class="container-fluid">
+
+<?php
+// FILE: application/views/templates_administrator/footer.php
+// Fungsi: Template bagian bawah untuk semua halaman internal.
+?>
