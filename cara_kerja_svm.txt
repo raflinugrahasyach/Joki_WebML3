@@ -1,0 +1,71 @@
+======================================================================
+PENJELASAN CARA KERJA METODE SUPPORT VECTOR MACHINE (SVM)
+PADA PROYEK KLASIFIKASI STATUS KEMISKINAN
+======================================================================
+
+Dokumen ini menjelaskan alur kerja dan konsep metode Support Vector Machine (SVM) yang digunakan dalam aplikasi ini untuk mengklasifikasikan status kemiskinan penduduk.
+
+
+--- KONSEP DASAR SVM ---
+
+Support Vector Machine (SVM) adalah salah satu algoritma supervised learning dalam machine learning yang bertujuan untuk menemukan "garis pemisah" terbaik antara dua kelompok atau kelas data. Dalam kasus proyek ini, dua kelas tersebut adalah "Penduduk Miskin" dan "Penduduk Tidak Miskin".
+
+Bayangkan semua data penduduk kita plot sebagai titik-titik pada sebuah grafik multi-dimensi. Setiap dimensi pada grafik ini mewakili satu kriteria (fitur), seperti 'Pendidikan', 'Pekerjaan', 'Jenis Lantai Rumah', dan lain-lain. Karena kita memiliki 9 kriteria, maka setiap penduduk direpresentasikan sebagai satu titik dalam ruang 9 dimensi.
+
+Tugas utama SVM adalah mencari sebuah "bidang pemisah" (disebut hyperplane) yang paling optimal. Optimal di sini berarti hyperplane tersebut tidak hanya memisahkan kedua kelompok data, tetapi juga memiliki jarak (margin) yang paling lebar atau paling maksimal ke titik-titik terdekat dari masing-masing kelompok. Titik-titik data terdekat yang menjadi penentu hyperplane inilah yang disebut "Support Vectors".
+
+Dengan memiliki margin yang maksimal, model SVM menjadi lebih andal dan akurat dalam mengklasifikasikan data baru yang belum pernah dilihat sebelumnya.
+
+
+--- PENERAPAN SVM PADA PROYEK INI ---
+
+Alur kerja SVM dalam aplikasi ini terbagi menjadi dua fase utama: Fase Pelatihan (Training) dan Fase Prediksi (Prediction).
+
+A. FASE PELATIHAN MODEL (Dilakukan sekali di awal)
+
+Ini adalah proses "mengajari" mesin bagaimana cara membedakan antara penduduk miskin dan tidak miskin. Proses ini hanya perlu dilakukan sekali untuk menghasilkan file model yang siap pakai.
+
+1.  **Pengumpulan & Persiapan Data:**
+    Data latih diambil dari file `dummy_penduduk_desa_taraju.csv`. Data ini berisi 9 kolom kriteria (fitur) dan 1 kolom target (`Kelas`) yang sudah dilabeli secara manual (1 untuk Miskin, -1 untuk Tidak Miskin).
+
+2.  **Encoding Data:**
+    Model SVM hanya bisa memproses data dalam bentuk angka. Oleh karena itu, semua data yang bersifat teks (kategorikal) harus diubah menjadi angka. Proses ini disebut encoding.
+    Contoh:
+    - Pada kolom 'Pendidikan', nilai 'SLTA' diubah menjadi angka 2.
+    - Pada kolom 'Pekerjaan', nilai 'Buruh' diubah menjadi angka 4.
+    Proses ini dilakukan untuk semua kolom kriteria menggunakan kamus data (mapping) yang telah didefinisikan di dalam script `train_model.py`.
+
+3.  **Normalisasi Data (Scaling):**
+    Setelah semua data menjadi angka, skala setiap fitur mungkin berbeda-beda (misal: 'Tanggungan Anak' dari 0-5, sementara 'Daya Listrik' dari 450-900). Untuk mencegah fitur dengan skala besar mendominasi proses perhitungan, kita melakukan normalisasi menggunakan `StandardScaler`. Proses ini mengubah skala semua fitur sehingga memiliki rentang nilai yang sebanding.
+
+4.  **Pelatihan Model SVM:**
+    Data yang sudah bersih, numerik, dan ternormalisasi kemudian dimasukkan ke dalam algoritma SVM (`SVC` dari library Scikit-learn). Algoritma akan melakukan perhitungan matematis untuk menemukan hyperplane pemisah terbaik. Hasil dari proses ini adalah dua file penting:
+    - `svm_model.joblib`: File "otak" AI yang sudah terlatih.
+    - `scaler.joblib`: File yang menyimpan informasi tentang cara melakukan normalisasi data.
+
+B. FASE PREDIKSI (Dilakukan setiap kali ada data baru)
+
+Ini adalah proses yang terjadi ketika pengguna menekan tombol "Simpan & Klasifikasi" pada form tambah data penduduk.
+
+1.  **Menerima Data Baru:**
+    Aplikasi web (PHP) menerima 9 nilai kriteria yang diinput oleh pengguna melalui form.
+
+2.  **Mengirim Data ke Service AI:**
+    Data tersebut dikirim melalui API ke service AI (Python) yang berjalan di latar belakang.
+
+3.  **Preprocessing Data Baru:**
+    Service AI melakukan proses yang SAMA PERSIS seperti pada fase pelatihan:
+    - Data yang diterima diubah menjadi format DataFrame.
+    - Data dinormalisasi menggunakan `scaler.joblib` yang sudah disimpan. Penting untuk menggunakan scaler yang sama agar skala data baru konsisten dengan data latih.
+
+4.  **Melakukan Prediksi:**
+    Data baru yang sudah diproses kemudian diberikan kepada model (`svm_model.joblib`). Model akan menentukan di sisi mana dari hyperplane data baru tersebut berada.
+    - Jika jatuh di sisi "Miskin", model akan mengeluarkan hasil 1.
+    - Jika jatuh di sisi "Tidak Miskin", model akan mengeluarkan hasil -1.
+
+5.  **Mengirim Hasil:**
+    Hasil prediksi (1 atau -1) dikirim kembali ke aplikasi web PHP. Aplikasi kemudian menerjemahkannya menjadi teks "Miskin" atau "Tidak Miskin" dan menyimpannya ke database.
+
+--- KESIMPULAN ---
+
+Dengan alur kerja ini, aplikasi dapat secara konsisten dan objektif mengklasifikasikan status kemiskinan penduduk baru berdasarkan pola yang telah dipelajari dari data historis, menjadikan proses pengambilan keputusan lebih cepat dan berbasis data.

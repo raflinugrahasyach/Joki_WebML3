@@ -1,31 +1,44 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-require_once 'vendor/autoload.php';
+require_once(APPPATH . 'third_party/dompdf/autoload.inc.php');
 use Dompdf\Dompdf;
 use Dompdf\Options;
 
-class Pdf {
+class Pdf
+{
     public $filename;
+    public $paper_size;
+    public $orientation;
 
     public function __construct()
     {
-        $this->filename = "laporan.pdf";
+        // Set default values
+        $this->filename = 'laporan.pdf';
+        $this->paper_size = 'A4';
+        $this->orientation = 'portrait';
+    }
+
+    protected function ci()
+    {
+        return get_instance();
     }
 
     public function load_view($view, $data = array())
     {
-        $CI =& get_instance();
-        $html = $CI->load->view($view, $data, TRUE);
-
         $options = new Options();
-        $options->set('isRemoteEnabled', TRUE); // Untuk load gambar/css external jika ada
-
+        $options->set('isRemoteEnabled', true); // Allow remote images
+        
         $dompdf = new Dompdf($options);
+        $html = $this->ci()->load->view($view, $data, TRUE);
+
         $dompdf->loadHtml($html);
-        $dompdf->setPaper('A4', 'portrait');
+        $dompdf->setPaper($this->paper_size, $this->orientation);
         $dompdf->render();
-        // $dompdf->stream($this->filename, array("Attachment" => FALSE)); // Tampilkan di browser
-        $dompdf->stream($this->filename, array("Attachment" => TRUE)); // Langsung download
+        
+        // Output the generated PDF to Browser
+        // Attachment => 0 (false) = preview in browser
+        // Attachment => 1 (true) = force download
+        $dompdf->stream($this->filename, array('Attachment' => 0));
     }
 }

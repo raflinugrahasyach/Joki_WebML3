@@ -50,6 +50,25 @@ class Penduduk_model extends CI_Model {
 
         return $id_klasifikasi;
     }
+
+    public function simpan_penduduk_dan_klasifikasi($input, $prediction)
+    {
+        // ...
+        $data_klasifikasi = [
+            'nik' => $input['nik'],
+            'jenis_kelamin' => $input['jenis_kelamin'],
+            'pendidikan' => $input['pendidikan'],
+            'pekerjaan' => $input['pekerjaan'],
+            'status_perkawinan' => $input['status_perkawinan'],
+            'tanggungan_anak' => $input['tanggungan_anak'], // Pastikan ini benar
+            'lantai_rumah' => $input['lantai_rumah'],
+            'dinding_rumah' => $input['dinding_rumah'],
+            'daya_listrik' => $input['daya_listrik'],
+            'sumber_air' => $input['sumber_air'],
+        ];
+        $this->db->insert('tb_klasifikasi', $data_klasifikasi);
+        // ...
+    }
     
     private function initCurl($data_to_predict)
     {

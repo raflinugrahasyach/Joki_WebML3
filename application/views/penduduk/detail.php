@@ -1,52 +1,67 @@
+<?php
+// Definisikan pemetaan nilai ke teks agar mudah dibaca
+$map_jenis_kelamin = [1 => 'Laki-laki', 2 => 'Perempuan'];
+$map_pendidikan = [1 => 'Tidak Sekolah', 2 => 'SD', 3 => 'SMP', 4 => 'SMA', 5 => 'Perguruan Tinggi'];
+$map_pekerjaan = [1 => 'Tidak Bekerja', 2 => 'Petani', 3 => 'Buruh', 4 => 'Wiraswasta', 5 => 'PNS/TNI/Polri'];
+$map_perkawinan = [1 => 'Belum Kawin', 2 => 'Kawin', 3 => 'Janda/Duda'];
+$map_lantai = [1 => 'Tanah', 2 => 'Semen/plester', 3 => 'Keramik/lainnya'];
+$map_dinding = [1 => 'Bambu/kayu', 2 => 'Tembok'];
+$map_listrik = [1 => 'Tanpa Listrik', 2 => '450 Watt', 3 => '900 Watt', 4 => '>900 Watt'];
+$map_air = [1 => 'Sumur', 2 => 'Sungai/mata air', 3 => 'PDAM'];
+?>
+
 <div class="container-fluid">
-
-    <h1 class="h3 mb-4 text-gray-800"><?= $judul; ?></h1>
-
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Data Lengkap: <?= $penduduk['nama']; ?></h6>
+            <h6 class="m-0 font-weight-bold text-primary">Detail Data Lengkap: <?= htmlspecialchars($penduduk['nama']); ?></h6>
         </div>
         <div class="card-body">
-            <h5>Data Diri</h5>
-            <table class="table table-striped table-bordered">
-                <tr><th width="30%">NIK</th><td><?= $penduduk['nik']; ?></td></tr>
-                <tr><th>Nama</th><td><?= $penduduk['nama']; ?></td></tr>
-                <tr><th>Tanggal Lahir</th><td><?= date('d F Y', strtotime($penduduk['tgl_lahir'])); ?></td></tr>
-                <tr><th>Alamat</th><td><?= $penduduk['alamat']; ?></td></tr>
-                <tr><th>RT/RW</th><td><?= $penduduk['rt_rw']; ?></td></tr>
-            </table>
-
-            <h5 class="mt-4">Data Variabel Klasifikasi</h5>
-            <table class="table table-striped table-bordered">
-                <tr><th width="30%">Jenis Kelamin</th><td><?= $penduduk['j_kelamin'] == 1 ? 'Laki-laki' : 'Perempuan'; ?></td></tr>
-                <tr><th>Pendidikan</th><td>
-                    <?php 
-                        $pendidikan = ['1' => 'Perguruan Tinggi', '2' => 'SLTA', '3' => 'SLTP', '4' => 'SD'];
-                        echo $pendidikan[$penduduk['pendidikan']];
-                    ?>
-                </td></tr>
-                <tr><th>Pekerjaan</th><td>
-                    <?php 
-                        $pekerjaan = ['1' => 'Pegawai/Karyawan', '2' => 'Dagang', '3' => 'Tani', '4' => 'Buruh', '5' => 'Tidak Bekerja'];
-                        echo $pekerjaan[$penduduk['pekerjaan']];
-                    ?>
-                </td></tr>
-                 <tr><th>Jumlah Anak Sekolah</th><td><?= $penduduk['anak_sekolah']; ?></td></tr>
-                <tr><th>...</th><td>...</td></tr>
-            </table>
-            
-             <h5 class="mt-4">Hasil Akhir</h5>
-             <table class="table table-striped table-bordered">
-                <tr><th width="30%">Hasil Klasifikasi</th>
-                    <td class="font-weight-bold <?= $penduduk['kelas'] == 'Miskin' ? 'text-danger' : 'text-success' ?>">
-                        <?= $penduduk['kelas']; ?>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Data Diri</h5>
+                    <table class="table table-bordered">
+                        <tr><th>NIK</th><td><?= htmlspecialchars($penduduk['nik']); ?></td></tr>
+                        <tr><th>Nama</th><td><?= htmlspecialchars($penduduk['nama']); ?></td></tr>
+                        <tr><th>Tanggal Lahir</th><td><?= date('d F Y', strtotime($penduduk['tgl_lahir'])); ?></td></tr>
+                        <tr><th>Alamat</th><td><?= htmlspecialchars($penduduk['alamat']); ?></td></tr>
+                        <tr><th>RT/RW</th><td><?= htmlspecialchars($penduduk['rt_rw']); ?></td></tr>
+                    </table>
+                </div>
+                <div class="col-md-6">
+                    <h5>Data Variabel Klasifikasi</h5>
+                    <table class="table table-bordered">
+                        <tr><th>Jenis Kelamin</th><td><?= isset($penduduk['jenis_kelamin']) ? $map_jenis_kelamin[$penduduk['jenis_kelamin']] : '-'; ?></td></tr>
+                        <tr><th>Pendidikan</th><td><?= isset($penduduk['pendidikan']) ? $map_pendidikan[$penduduk['pendidikan']] : '-'; ?></td></tr>
+                        <tr><th>Pekerjaan</th><td><?= isset($penduduk['pekerjaan']) ? $map_pekerjaan[$penduduk['pekerjaan']] : '-'; ?></td></tr>
+                        <tr><th>Status Perkawinan</th><td><?= isset($penduduk['status_perkawinan']) ? $map_perkawinan[$penduduk['status_perkawinan']] : '-'; ?></td></tr>
+                        <tr><th>Jumlah Anak Sekolah</th><td><?= isset($penduduk['anak_sekolah']) ? htmlspecialchars($penduduk['anak_sekolah']) : '-'; ?></td></tr>
+                        <tr><th>Lantai Rumah</th><td><?= isset($penduduk['lantai_rumah']) ? $map_lantai[$penduduk['lantai_rumah']] : '-'; ?></td></tr>
+                        <tr><th>Dinding Rumah</th><td><?= isset($penduduk['dinding_rumah']) ? $map_dinding[$penduduk['dinding_rumah']] : '-'; ?></td></tr>
+                        <tr><th>Daya Listrik</th><td><?= isset($penduduk['daya_listrik']) ? $map_listrik[$penduduk['daya_listrik']] : '-'; ?></td></tr>
+                        <tr><th>Sumber Air</th><td><?= isset($penduduk['sumber_air']) ? $map_air[$penduduk['sumber_air']] : '-'; ?></td></tr>
+                    </table>
+                </div>
+            </div>
+            <hr>
+            <h5>Hasil Akhir</h5>
+            <table class="table table-bordered" style="width:50%;">
+                <tr>
+                    <th>Hasil Klasifikasi</th>
+                    <td>
+                        <?php if (isset($penduduk['kelas'])) : ?>
+                            <span class="font-weight-bold text-<?= $penduduk['kelas'] == 'Miskin' ? 'danger' : 'success'; ?>">
+                                <?= htmlspecialchars($penduduk['kelas']); ?>
+                            </span>
+                        <?php else : echo '-'; endif; ?>
                     </td>
                 </tr>
-                <tr><th>Tanggal Klasifikasi</th><td><?= date('d F Y, H:i:s', strtotime($penduduk['tanggal_klasifikasi'])); ?></td></tr>
+                <tr>
+                    <th>Tanggal Klasifikasi</th>
+                    <td><?= isset($penduduk['tanggal_klasifikasi']) ? date('d F Y, H:i:s', strtotime($penduduk['tanggal_klasifikasi'])) : '-'; ?></td>
+                </tr>
             </table>
-
+            <br>
             <a href="<?= base_url('penduduk'); ?>" class="btn btn-secondary">Kembali</a>
         </div>
     </div>
-
 </div>

@@ -7,7 +7,7 @@ class Auth extends CI_Controller {
     {
         parent::__construct();
         $this->load->library('form_validation');
-        $this->load->model('Penduduk_model'); // Kita bisa letakkan fungsi login di model utama atau buat model baru
+        $this->load->library('session');
     }
 
     public function index()
@@ -21,10 +21,10 @@ class Auth extends CI_Controller {
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
 
         if ($this->form_validation->run() == FALSE) {
-            $data['judul'] = 'Login Sistem';
+            $data['title'] = 'Login Page';
             $this->load->view('auth/login', $data);
         } else {
-            // Proses login
+            // Validasi sukses, panggil method _login
             $this->_login();
         }
     }
@@ -34,24 +34,17 @@ class Auth extends CI_Controller {
         $username = $this->input->post('username');
         $password = $this->input->post('password');
 
-        // Menggunakan fungsi getUserByName yang akan kita tambahkan di model
-        $user = $this->Penduduk_model->getUserByName($username);
-
-        if ($user) {
-            // User ada, cek password
-            if (password_verify($password, $user['password'])) {
-                $data = [
-                    'username' => $user['username'],
-                    'nama_lengkap' => $user['nama_lengkap']
-                ];
-                $this->session->set_userdata($data);
-                redirect('dashboard');
-            } else {
-                $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Password salah!</div>');
-                redirect('auth');
-            }
+        // Hardcoded user, sesuai permintaan
+        if ($username == 'admin' && $password == 'admin') {
+            $data_session = [
+                'username' => $username,
+                'status' => 'login'
+            ];
+            $this->session->set_userdata($data_session);
+            redirect('dashboard');
         } else {
-            $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Username tidak terdaftar!</div>');
+            // Buat pesan error jika login gagal
+            $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert">Username atau password salah!</div>');
             redirect('auth');
         }
     }
@@ -59,7 +52,7 @@ class Auth extends CI_Controller {
     public function logout()
     {
         $this->session->unset_userdata('username');
-        $this->session->unset_userdata('nama_lengkap');
+        $this->session->unset_userdata('status');
         
         $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">Anda telah berhasil logout!</div>');
         redirect('auth');

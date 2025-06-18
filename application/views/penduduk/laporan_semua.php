@@ -1,51 +1,71 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Laporan Daftar Penduduk</title>
+<html><head>
+    <title>Laporan Data Penduduk</title>
     <style>
-        body { font-family: sans-serif; font-size: 12px; }
-        .header { text-align: center; margin-bottom: 20px; }
-        .header h3, .header p { margin: 0; }
-        table { width: 100%; border-collapse: collapse; }
-        table, th, td { border: 1px solid black; }
-        th, td { padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
+        body {
+            font-family: sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+            font-size: 12px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
-</head>
-<body>
-    <div class="header">
-        <h3>LAPORAN DAFTAR PENDUDUK</h3>
-        <p>HASIL KLASIFIKASI TINGKAT KEMISKINAN</p>
-    </div>
+</head><body>
+    <h1>Daftar Seluruh Penduduk</h1>
     <table>
         <thead>
             <tr>
                 <th>No</th>
                 <th>NIK</th>
                 <th>Nama</th>
+                <th>Jenis Kelamin</th>
                 <th>Alamat</th>
-                <th>Hasil Klasifikasi</th>
-                <th>Tanggal</th>
+                <th>Status Kemiskinan</th>
             </tr>
         </thead>
         <tbody>
-            <?php if (!empty($penduduk)): ?>
-                <?php $no = 1; foreach($penduduk as $p): ?>
+            <?php $no = 1;
+            foreach ($penduduk as $p) : ?>
                 <tr>
                     <td><?= $no++; ?></td>
-                    <td>'<?= $p['nik']; ?></td> <td><?= $p['nama']; ?></td>
+                    <td><?= $p['nik']; ?></td>
+                    <td><?= $p['nama']; ?></td>
+                    <td>
+                        <?php
+                        // Cek jika data jenis kelamin ada (dari tabel klasifikasi)
+                        if (isset($p['jenis_kelamin']) && $p['jenis_kelamin'] !== null) {
+                            echo ($p['jenis_kelamin'] == 1) ? 'Laki-laki' : 'Perempuan';
+                        } else {
+                            echo '-'; // Tampilkan strip jika belum ada data
+                        }
+                        ?>
+                    </td>
                     <td><?= $p['alamat']; ?></td>
-                    <td><?= $p['kelas']; ?></td>
-                    <td><?= date('d-m-Y', strtotime($p['tanggal_klasifikasi'])); ?></td>
+                    <td>
+                        <?php
+                        // Cek jika status kemiskinan ada (dari tabel hasil)
+                        if (isset($p['status_kemiskinan']) && $p['status_kemiskinan'] !== null) {
+                            echo $p['status_kemiskinan'];
+                        } else {
+                            echo 'Belum Diklasifikasi';
+                        }
+                        ?>
+                    </td>
                 </tr>
-                <?php endforeach; ?>
-            <?php else: ?>
-                <tr>
-                    <td colspan="6" style="text-align:center;">Tidak ada data.</td>
-                </tr>
-            <?php endif; ?>
+            <?php endforeach; ?>
         </tbody>
     </table>
-</body>
-</html>
+</body></html>

@@ -1,22 +1,24 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// PASTIKAN URL INI SESUAI DENGAN SETUP XAMPP ANDA
-$config['base_url'] = 'http://localhost/proyek-klasifikasi-penduduk/htdocs/';
+// UBAH BARIS DI BAWAH INI SESUAI ALAMAT PROYEK ANDA
+// PASTIKAN ADA TANDA '/' DI AKHIR
+$config['base_url'] = 'http://localhost/proyek_kemiskinan/';
 
-// KOSONGKAN INI UNTUK MENGHILANGKAN index.php DARI URL
+// Baris ini biarkan kosong jika Anda akan membuat file .htaccess (lihat Langkah 2)
 $config['index_page'] = '';
 
 $config['uri_protocol']	= 'REQUEST_URI';
 $config['url_suffix'] = '';
 $config['language']	= 'english';
 $config['charset'] = 'UTF-8';
+
+// AKTIFKAN COMPOSER AUTOLOAD UNTUK MEMUAT LIBRARY SEPERTI GUZZLE
+$config['composer_autoload'] = TRUE;
+
+// --- Sisa konfigurasi biarkan default ---
 $config['enable_hooks'] = FALSE;
 $config['subclass_prefix'] = 'MY_';
-
-// AKTIFKAN INI AGAR LIBRARY DARI COMPOSER (Dompdf) BISA DIGUNAKAN
-$config['composer_autoload'] = TRUE; 
-
 $config['permitted_uri_chars'] = 'a-z 0-9~%.:_\-';
 $config['allow_get_array'] = TRUE;
 $config['enable_query_strings'] = FALSE;
@@ -31,7 +33,7 @@ $config['log_date_format'] = 'Y-m-d H:i:s';
 $config['error_views_path'] = '';
 $config['cache_path'] = '';
 $config['cache_query_string'] = FALSE;
-$config['encryption_key'] = 'TambahkanKunciEnkripsiAcakAndaDisiniUntukKeamananSession';
+$config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'ci_session';
 $config['sess_expiration'] = 7200;

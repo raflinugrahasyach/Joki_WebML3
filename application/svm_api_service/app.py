@@ -1,65 +1,63 @@
-from flask import Flask, request, jsonify
-import joblib
 import pandas as pd
-import numpy as np
+import joblib
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# Muat model dan scaler saat aplikasi dimulai
+# Muat model dan scaler
 try:
     model = joblib.load('model/svm_model.joblib')
     scaler = joblib.load('model/scaler.joblib')
     print("--- Model dan Scaler berhasil dimuat ---")
 except Exception as e:
-    print(f"Error memuat model atau scaler: {e}")
-    model = None
-    scaler = None
+    model, scaler = None, None
+    print(f"Error memuat model/scaler: {e}")
 
 @app.route('/predict', methods=['POST'])
 def predict():
     if not model or not scaler:
-        return jsonify({'error': 'Model tidak dapat dimuat, periksa log server.'}), 500
+        return jsonify({'error': 'Model atau Scaler tidak termuat.'}), 500
 
-    # Dapatkan data JSON dari request
-    data = request.get_json()
-    if not data:
-        return jsonify({'error': 'Data tidak ditemukan dalam request.'}), 400
+    json_payload = request.get_json()
+    if not json_payload or 'data' not in json_payload:
+        return jsonify({'error': 'Request harus berisi JSON dengan key "data"'}), 400
+    
+    data_from_php = json_payload['data']
 
     try:
-        # Konversi data ke format yang sesuai dengan urutan kolom saat training
-        # Pastikan urutan kolomnya sama persis dengan di train_model.py
+        # PERBAIKAN LOGIKA:
+        # Urutan kolom ini HARUS SAMA PERSIS dengan saat model dilatih
         feature_order = [
-            'j_kelamin', 'pendidikan', 'pekerjaan', 's_kawin', 
-            'anak_sekolah', 'lt_rumah', 'din_rumah', 'dy_listrik', 'sumber_air'
+            'Jenis Kelamin', 'Pendidikan', 'Pekerjaan', 'Status Perkawinan', 
+            'Tanggungan Anak', 'Lantai Rumah', 'Dinding Rumah', 'Daya Listrik', 'Sumber Air'
+        ]
+
+        # Buat list berisi nilai-nilai dari PHP sesuai urutan di atas
+        input_values = [
+            data_from_php['jenis_kelamin'],
+            data_from_php['pendidikan'],
+            data_from_php['pekerjaan'],
+            data_from_php['status_perkawinan'],
+            data_from_php['tanggungan_anak'],
+            data_from_php['lantai_rumah'],
+            data_from_php['dinding_rumah'],
+            data_from_php['daya_listrik'],
+            data_from_php['sumber_air']
         ]
         
-        # Buat list dari data input sesuai urutan yang benar
-        input_data = [data[feature] for feature in feature_order]
+        # Buat DataFrame dari list nilai dengan nama kolom yang benar
+        df_input = pd.DataFrame([input_values], columns=feature_order)
 
-        # Konversi ke DataFrame untuk scaling
-        df_input = pd.DataFrame([input_data], columns=feature_order)
-
-        # Scaling data baru
+        # Langsung scaling dan prediksi karena data sudah numerik
         scaled_input = scaler.transform(df_input)
-
-        # Lakukan prediksi
         prediction = model.predict(scaled_input)
-
-        # Konversi hasil prediksi ke format yang mudah dibaca
-        # Berdasarkan PDF: 1 = Miskin, -1 = Tidak Miskin 
+        
         hasil_prediksi = 'Miskin' if prediction[0] == 1 else 'Tidak Miskin'
         
-        # Kirim response
-        return jsonify({
-            'prediksi_raw': int(prediction[0]),
-            'hasil': hasil_prediksi
-        })
+        return jsonify({'prediction': hasil_prediksi})
 
-    except KeyError as e:
-        return jsonify({'error': f'Fitur yang dibutuhkan tidak ada: {e}'}), 400
     except Exception as e:
-        return jsonify({'error': f'Terjadi kesalahan saat prediksi: {str(e)}'}), 500
+        return jsonify({'error': f'Kesalahan internal saat prediksi: {str(e)}'}), 500
 
 if __name__ == '__main__':
-    # Jalankan aplikasi di port 5000
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='127.0.0.1', port=5000, debug=True)
